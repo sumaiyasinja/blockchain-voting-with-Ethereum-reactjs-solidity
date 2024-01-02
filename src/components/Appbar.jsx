@@ -185,8 +185,13 @@ export default function Appbar() {
     );
 
     return (
+<<<<<<< HEAD
         <Box sx={{ flexGrow: 1,backgroundColor:'#394867',width:'100%',height:'100%' }}>
             <AppBar position="relative" sx={{backgroundColor:'#0C134F',width:"100%",height:'100%'}}>
+=======
+        <Box sx={{ flexGrow: 1 }}>
+            <AppBar position="relative">
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                 <Toolbar>
                     <IconButton
                         size="large"
@@ -210,6 +215,7 @@ export default function Appbar() {
                         <StyledInputBase placeholder="Search…" inputProps={{ "aria-label": "search" }} />
                     </Search> */}
 
+<<<<<<< HEAD
                     <Box sx={{ display: "flex", justifyContent: "center", flexGrow: 12 }}>
                     <Button
                             size="large"
@@ -226,6 +232,12 @@ export default function Appbar() {
                                 Home
                             </NavLink>
                         </Button>
+=======
+
+
+
+                    <Box sx={{ display: "flex", justifyContent: "center", flexGrow: 12 }}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <Button
                             size="large"
                             aria-label="Create Ballot"
@@ -233,12 +245,20 @@ export default function Appbar() {
                             sx={{
                                 padding: "8px", // Add padding
                                 '&:hover': {
+<<<<<<< HEAD
                                     backgroundColor: '#394867', // Add hover color
+=======
+                                    backgroundColor: 'rgba(255, 255, 255, 0.1)', // Add hover color
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                                 }
                             }}
                         >
                             <NavLink to="/ballot" style={{ color: "white" }}>
+<<<<<<< HEAD
                             Election
+=======
+                                Create Ballot
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                             </NavLink>
                         </Button>
                         <Button
@@ -272,7 +292,11 @@ export default function Appbar() {
                             </NavLink>
                         </Button>
 
+<<<<<<< HEAD
                         {/* <Button
+=======
+                        <Button
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                             size="large"
                             aria-label="Team"
                             color="inherit"
@@ -286,7 +310,11 @@ export default function Appbar() {
                             <NavLink to="/team" style={{ color: "white" }}>
                                 Team
                             </NavLink>
+<<<<<<< HEAD
                         </Button> */}
+=======
+                        </Button>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
 
                         <Button
                             size="large"
@@ -309,7 +337,11 @@ export default function Appbar() {
 
 
                     <Box sx={{ flexGrow: 1 }} />
+<<<<<<< HEAD
                     {/* <Box sx={{ display: { xs: "none", md: "flex" } }}>
+=======
+                    <Box sx={{ display: { xs: "none", md: "flex" } }}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <IconButton size="large" aria-label="new mails" color="inherit">
                             <Badge badgeContent={0} color="error">
                                 <MailIcon />
@@ -331,8 +363,13 @@ export default function Appbar() {
                         >
                             <AccountCircle />
                         </IconButton>
+<<<<<<< HEAD
                     </Box> */}
                     <Box  sx={{ display: { xs: "flex", md: "none" } }}>
+=======
+                    </Box>
+                    <Box sx={{ display: { xs: "flex", md: "none" } }}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <IconButton
                             size="large"
                             aria-label="show more"
@@ -348,6 +385,10 @@ export default function Appbar() {
             </AppBar>
             {renderMobileMenu}
             {renderMenu}
+<<<<<<< HEAD
+=======
+
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
             <Drawer anchor="left" open={open} onClose={() => setOpen(!open)}>
                 <Box sx={{ width: "300px", marginTop: "2rem" }}>
                     <Box mb={3}>

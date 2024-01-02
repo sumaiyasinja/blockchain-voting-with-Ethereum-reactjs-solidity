@@ -52,17 +52,28 @@ const Voting = ({
     }, [getChoices, getTotalVotes, checkIsVoter, getCurrentState, getVoters, ballot, contract]);
 
     return (
+<<<<<<< HEAD
         <div style={{ backgroundColor:'#010b2e' }}>
  <Container style={{ height: '100%'  }}>
             <Box py={10} sx={{bacgroundColor:'#0C134F'}}>
                 <Paper p={6} sx={{paddingTop:'40px', bacgroundColor:'#FFF' , width:'100%',height:'100%'}}>
                     <Box py={1} >
+=======
+        <Container style={{ height: '100vh' }}>
+            <Box py={4}>
+                <Paper>
+                    <Box py={1}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <Typography variant="h4" fontWeight="bold" textAlign="center">
                             Get Ballot
                         </Typography>
                     </Box>
                     <Divider />
+<<<<<<< HEAD
                     <Box  paddingY={6} p={3}  sx={{backgroundColor:"#FFF", width:'100%',height:'100%'}}>
+=======
+                    <Box margin={2} paddingY={2}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <form onSubmit={getBallotDetails}>
                             <Box my={2}>
                                 <TextField
@@ -78,19 +89,31 @@ const Voting = ({
                             {ballot.name && ballot.address && ballot.proposal && (
                                 <Box my={2} display="flex" justifyContent="space-between">
                                     <Box>
+<<<<<<< HEAD
                                         <Typography color={'white'} variant="h6" fontWeight="bold">
+=======
+                                        <Typography variant="h6" fontWeight="bold">
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                                             Ballot Name
                                         </Typography>
                                         <Typography>{ballot.name}</Typography>
                                     </Box>
                                     <Box>
+<<<<<<< HEAD
                                         <Typography color={'white'} variant="h6" fontWeight="bold">
+=======
+                                        <Typography variant="h6" fontWeight="bold">
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                                             Proposal
                                         </Typography>
                                         <Typography>{ballot.proposal}</Typography>
                                     </Box>
                                     <Box>
+<<<<<<< HEAD
                                         <Typography color={'white'}  variant="h6" fontWeight="bold">
+=======
+                                        <Typography variant="h6" fontWeight="bold">
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                                             Ballot Address
                                         </Typography>
                                         <Typography>{ballot.address}</Typography>
@@ -99,7 +122,11 @@ const Voting = ({
                             )}
 
                             <Box>
+<<<<<<< HEAD
                                 <Button  variant="contained" type="submit" fullWidth>
+=======
+                                <Button variant="contained" type="submit" fullWidth>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                                     Get Ballot
                                 </Button>
                             </Box>
@@ -113,7 +140,11 @@ const Voting = ({
                     </Box>
                 </Paper>
                 {visible && isVoter && (
+<<<<<<< HEAD
                     <Paper p={2}>
+=======
+                    <Paper>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <Box py={1}>
                             <Typography variant="h4" fontWeight="bold" textAlign="center">
                                 Vote Now
@@ -183,8 +214,11 @@ const Voting = ({
                 )}
             </Box>
         </Container>
+<<<<<<< HEAD
         </div>
        
+=======
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
     );
 };
 

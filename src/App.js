@@ -18,7 +18,10 @@ import Appbar from "./components/Appbar";
 
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
+<<<<<<< HEAD
 import Footer from "./components/Footer";
+=======
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
 
 const App = () => {
     const [loading, setLoading] = useState(false);
@@ -168,7 +171,11 @@ const App = () => {
     }, [loadBlockchainData]);
 
     return (
+<<<<<<< HEAD
         <Box flexDirection={'column' } alignItems={'end'}>
+=======
+        <Box style={{ background: 'radial-gradient(circle, rgba(83,207,240,1) 12%, rgba(0,212,255,1) 43%, rgba(99,92,208,1) 80%)' }}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
             <ToastContainer
                 position="top-right"
                 autoClose={5000}
@@ -182,7 +189,10 @@ const App = () => {
             />
             <Appbar />
             <Routes>
+<<<<<<< HEAD
 
+=======
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                 <Route path="/" element={<Home />} />
                 <Route
                     path="/ballot"
@@ -273,12 +283,18 @@ const App = () => {
                 <Route path="/team" element={<Team />} />
                 <Route path="/about" element={<About />} />
             </Routes>
+<<<<<<< HEAD
 
             <Backdrop sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }} open={loading}>
                 <CircularProgress color="inherit" />
             </Backdrop>
         
            <Footer className=" flex items-end h-full w-full" />
+=======
+            <Backdrop sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }} open={loading}>
+                <CircularProgress color="inherit" />
+            </Backdrop>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
         </Box>
     );
 };

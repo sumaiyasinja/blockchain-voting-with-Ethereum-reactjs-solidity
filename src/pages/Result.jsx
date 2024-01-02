@@ -41,17 +41,27 @@ const Result = ({
     }, [getChoices, ballot, contract, getCurrentState]);
 
     return (
+<<<<<<< HEAD
         <div style={{ height: '100%',backgroundColor:'#010b2e',paddingTop:'100px',paddingBottom:'100px'}}>
         <Container style={{ height: '100%',backgroundColor:'#010b2e'}}>
             <Box p={6} style={{ height: '100%',backgroundColor:'#010b2e'}}>
                 <Paper p={5}>
+=======
+        <Container style={{ height: '100vh' }}>
+            <Box my={4}>
+                <Paper>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                     <Box py={1}>
                         <Typography variant="h4" fontWeight="bold" textAlign="center">
                             Get Ballot
                         </Typography>
                     </Box>
                     <Divider />
+<<<<<<< HEAD
                     <Box paddingY={6} paddingX={5}>
+=======
+                    <Box margin={2} paddingY={2}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                         <form onSubmit={getBallotDetails}>
                             <Box my={2}>
                                 <TextField
@@ -135,7 +145,10 @@ const Result = ({
                 )}
             </Box>
         </Container>
+<<<<<<< HEAD
         </div>
+=======
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
     );
 };
 

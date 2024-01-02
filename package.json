@@ -3,7 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+<<<<<<< HEAD
         "@emotion/react": "^11.11.1",
+=======
+        "@emotion/react": "^11.10.0",
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
         "@emotion/styled": "^11.10.0",
         "@mui/icons-material": "^5.8.4",
         "@mui/material": "^5.9.3",
@@ -13,16 +17,25 @@
         "@testing-library/user-event": "^13.5.0",
         "aos": "^2.3.4",
         "classnames": "^2.3.1",
+<<<<<<< HEAD
         "framer-motion": "^10.16.16",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-fast-marquee": "^1.6.2",
+=======
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
         "react-icons": "^4.11.0",
         "react-router-dom": "^6.3.0",
         "react-scripts": "5.0.1",
         "react-toastify": "^9.0.8",
+<<<<<<< HEAD
         "swiper": "^11.0.5",
+=======
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
         "web-vitals": "^2.1.4",
         "web3": "^1.7.5"
     },

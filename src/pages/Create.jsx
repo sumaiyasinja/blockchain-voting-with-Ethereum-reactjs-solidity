@@ -105,9 +105,14 @@ const Create = ({
     }, [contract, state, voting?._address, setDisable, getBallotDetails, getChoices, getVoters, getCurrentState]);
 
     return (
+<<<<<<< HEAD
         <div style={{backgroundColor:'#010b2e'}}>
         <Container style={{backgroundColor:'#010b2e'}}>
             <Box paddingX={6} paddingY={8} >
+=======
+        <Container>
+            <Box mt={4} pb={8} paddingX={6} >
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                 {disable && (
                     <Box my={2}>
                         <Paper sx={{ padding: "0.6rem" }}>
@@ -117,17 +122,29 @@ const Create = ({
                         </Paper>
                     </Box>
                 )}
+<<<<<<< HEAD
                 <Box>
                     <Paper>
                         <Box py={1} sx={{backgroundColor:'#FFF', width:'100%',height:'100%'}}>
+=======
+                <Box my={4}>
+                    <Paper>
+                        <Box py={1}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                             <Typography variant="h4" fontWeight="bold" textAlign="center">
                                 Create Ballot
                             </Typography>
                         </Box>
                         <Divider />
+<<<<<<< HEAD
                         <Box  paddingY={2} sx={{backgroundColor:'#FFF', width:'100%',height:'100%'}}>
                             {isAlreadyCreated && <Alert severity="success">Ballot already created.</Alert>}
                             <form onSubmit={onCreateBallot} style={{padding:'50px'}}>
+=======
+                        <Box margin={2} paddingY={2}>
+                            {isAlreadyCreated && <Alert severity="success">Ballot already created.</Alert>}
+                            <form onSubmit={onCreateBallot}>
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
                                 <Box my={2}>
                                     <TextField
                                         value={ballot.name}
@@ -301,8 +318,11 @@ const Create = ({
                 )}
             </Box>
         </Container>
+<<<<<<< HEAD
         </div>
 
+=======
+>>>>>>> d312fe25be3b84ed9685e8a65e63134107cf798a
     );
 };
 
